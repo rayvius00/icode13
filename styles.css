@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    background: linear-gradient(90deg, rgb(1, 16, 73) 0%, rgba(34, 68, 191, 1) 100%);
+    width: 487px;
+    height: 220px;
+    text-align: center;
+    position: relative;
+    border: 15px solid #d0ddfd;
+    border-radius: 11px;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+p {
+    margin-top: 9px;
+    color: white;
+    font-size: 10px;
+    padding: 0 120px;
+}
+
+input {
+    margin-top: 20px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 150px;
+    background-color: #7d93dc;
+    border: 1px white solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input::placeholder {
+    color: rgb(155, 200, 237);
+    font-size: 13px;
+    padding-left: 20px;
+    color: white;
+}
+
+button{
+    width: 45px;
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    color: #6f758d;
+    border-radius: 40px;
+    position: absolute;
+    left: 345px;
+    top: 101.7px;
+}
+
+.person1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -40px;
+    left: 150px;
+    border: 6px solid white;
+
+}
+
+.person2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -40px;
+    left: 80px;
+    border: 6px solid white;
+}
+.person3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -40px;
+    left: 290px;
+    border: 6px solid white;
+}
+.person5 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -40px;
+    left: 360px;
+    border: 6px solid white;
+}
+
+.person4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -40px;
+    left: 220px;
+    border: 6px solid white;
+}
